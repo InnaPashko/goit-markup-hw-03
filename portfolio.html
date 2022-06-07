@@ -14,9 +14,8 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-          <div class="main-nav">
-        <nav class="header-nav">
+        <div class="container main-nav">
+          <nav class="header-nav">
           <a class="header-logo link" href="./index.html">Web<span class="header-color">Studio</span> </a>
           <ul class="header-list">
             <li class="header-item"><a href="./stydia.html" class="header-link" style="color: #2196F3;" >Студия</a></li>
@@ -28,27 +27,26 @@
           <li class="contact-item"><a href="mail:info@devstudio.com" class="header-mail">info@devstudio.com</a></li>
           <li class="contact-item"><a href="tek:+380961111111" class="header-tel">+38 096 111 11 11</a></li>
         </ul>
-      </div>
-        </div>
+          </div>
         </header>
     <main>
         
-        <section>
-            <div class="container">
+        <section class="container">
+            <div>
         <ul class="filtr-button">
-            <li>
+            <li class="filtr-button-item">
                 <button type="button" class="filtr" style="background-color: #2196F3; color: #FFFFFF; " >Все</batton>
             </li>
-            <li>
+            <li class="filtr-button-item">
                 <button type="button" class="filtr" >Веб-сайты</batton>
             </li>
-            <li>
+            <li class="filtr-button-item">
                 <button type="button" class="filtr" >Приложения</batton>
             </li>
-            <li>
+            <li class="filtr-button-item">
                 <button type="button" class="filtr" >Дизайн</batton>
             </li>
-            <li>
+            <li class="filtr-button-item">
                 <button type="button" class="filtr" >Маркетинг</batton>
             </li>
         </ul>
@@ -62,65 +60,83 @@
                 <ul class="writings">
             <li class="writings-list">
                 <img src="./images/web-min.png" alt="веб сайт">
-                    <h2 class="foto-text">Технокряк
+                <div class="writings-list-text">   
+                <h2 class="foto-text">Технокряк
                         </h2>
                         <p class="foto-text-par">Веб-сайт</p>
+                    </div> 
                 </img>
             </li>
             <li class="writings-list">
                 <img src="./images/designer-min.png" alt="дизайн">
-                    <h2 class="foto-text">Постер New Orlean vs Golden Star
+                <div class="writings-list-text">    
+                <h2 class="foto-text">Постер New Orlean vs Golden Star
                       </h2>
                       <p class="foto-text-par">Дизайн</p>
+                    </div>
                 </img>
             </li>
             <li class="writings-list">
                 <img src="./images/seafood-min.png" alt="приложение">
-                    <h2 class="foto-text">Ресторан Seafood
+                <div class="writings-list-text">   
+                <h2 class="foto-text">Ресторан Seafood
                         </h2>
                         <p class="foto-text-par">Приложение</p>
+                    </div> 
                 </img>
             </li>
             <li class="writings-list">
                 <img src="./images/prime-min.png" alt="маркетинг">
-                    <h2 class="foto-text">Проект Prime
+                <div class="writings-list-text">    
+                <h2 class="foto-text">Проект Prime
                         </h2>
                         <p class="foto-text-par">Маркетинг</p>
+                    </div>
                 </img>
             </li>
             <li class="writings-list">
                 <img src="./images/boxes-min.png" alt="приложение">
-                    <h2 class="foto-text">Проект Boxes
+                <div class="writings-list-text">    
+                <h2 class="foto-text">Проект Boxes
                        </h2>
                        <p class="foto-text-par">Приложение</p>
+                    </div>
                 </img>
             </li>
             <li class="writings-list">
                 <img src="./images/inspiration-min.png" alt="веб-сайт">
-                    <h2 class="foto-text">Inspiration has no Borders
+                <div class="writings-list-text">    
+                <h2 class="foto-text">Inspiration has no Borders
                         </h2>
                         <p class="foto-text-par">Веб-сайт</p>
-                </img>
-            </li class="writings-list">
-            <li>
-                <img src="./images/edition-min.png" alt="дизайн">
-                    <h2 class="foto-text">Издание Limited Edition
-                        </h2>
-                        <p class="foto-text-par">Дизайн</p>
+                    </div>
                 </img>
             </li>
             <li class="writings-list">
+                <img src="./images/edition-min.png" alt="дизайн">
+                <div class="writings-list-text">    
+                <h2 class="foto-text">Издание Limited Edition
+                        </h2>
+                        <p class="foto-text-par">Дизайн</p>
+                    </div>
+                </img>
+            </li> 
+            <li class="writings-list">
                 <img src="./images/lab-min.png" alt="маркетинг">
-                    <h2 class="foto-text">Проект LAB
+                <div class="writings-list-text">    
+                <h2 class="foto-text">Проект LAB
                         </h2>
                         <p class="foto-text-par">Маркетинг</p>
+                    </div>
                 </img>
             </li>
             <li class="writings-list">
                 <img src="./images/business-min.png" alt="приложение">
-                    <h2 class="foto-text">Growing Business
+                <div class="writings-list-text">    
+                <h2 class="foto-text">Growing Business
                        </h2>
                        <p class="foto-text-par">Приложение</p>
+                    </div>
                 </img>
             </li>
         </ul>
@@ -128,22 +144,27 @@
         </section>
          
     </main> 
-        <section>
-            <div class="container">
-        <footer class="footer">
+    <section class="footer">
+        <div class="container">
         <a class="footer-logo link" href="./index.html">Web<span class="footer-color">Studio</span> </span> </a>
-        <address>
+        <footer>
+          <address class="address">
             <ul>
-                <li><a href="https://goo.gl/maps/oHG8kgVnFMim19Xk8" target="_blank" rel="noopener nofollow noreferrer" class="footer-address">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com" class="footer-mail">info@example.com</a></li>
-                <li><a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a></li>
+              <li class="footer-item">
+                <a
+                  href="https://goo.gl/maps/oHG8kgVnFMim19Xk8" class="footer-address"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-item"><a href="mailto:info@example.com" class="footer-mail">info@example.com</a></li>
+              <li class="footer-item"><a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a></li>
             </ul>
-        </address>
+          </address>
         </footer>
-            </div>
-    </section>
-    
-    
-
+      </div>
+      </section>
+        
 </body>
 </html>
